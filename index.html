@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Lilian Crivelli</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mim</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lilian Crivelli</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre mim</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/img/Perfil 1.png" alt="Lilian Crivelli profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Olá, eu sou</p>
+        <h1 class="title">Lilian Crivelli</h1>
+        <p class="section__text__p2">Desenvolvedora Web</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/docs/Lilian Araújo Crivelli.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='https://wa.me/qr/DBWLGWPXK7CDA1'">
+            Contato
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="assets/img/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/lilian-ara%C3%BAjo-crivelli-86529b179/'"
+          />
+          <img
+            src="assets/img/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/liliandev27'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Conheça mais</p>
+      <h1 class="title">Sobre mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container"  id="pic-container">
+          <img
+            src="assets/img/1.png"
+            alt="Profile picture"
+            class="about-pic" width="400" height="300"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="assets/img/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>1+ ano <br />Desenvolvimento Web</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="assets/img/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Universidade Pitágoras </br>Unopar
+                Anhanguera<br />4º Período</br>Engenharia de Software</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Sempre gostei de tecnologia, mas nunca levei a sério a possibilidade de trabalhar na área.</br>
+              Quando veio a pandemia, então resolvi entrar para faculdade na área de TI, onde então vi que meu hobby poderia se tornar a minha profissão.</br>
+              Em 2020 entrei no curso de Análise e Desenvolvimento de Sistemas, não me identifiquei,cursei apenas 03 semestres e resolvi mudar para Engenharia de Software, estou no 4º período, onde pretendo seguir carreira.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore minha</p>
+      <h1 class="title">Experiência</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">DesenvolvimentoFrontend</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="assets/img/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Bootstrap 5</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                src="assets/img/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Navegue pelos meus</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/img/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 01</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/img/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 02</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/img/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto 03</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Para saber mais</p>
+      <h1 class="title">Contate-me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/img/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/img/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/lilian-ara%C3%BAjo-crivelli-86529b179/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Sobre Mim</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Lilian Crivelli. All Rights Reserved.</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
